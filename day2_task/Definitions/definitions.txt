@@ -1,0 +1,63 @@
+Definitions
+
+1. "USE STRICT" - "use strict"; Defines that JavaScript code should be executed in "strict mode".
+                The "use strict" directive was new in ECMAScript version 5.
+                It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
+                The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+                With strict mode, you can not, for example, use undeclared variables.
+                All modern browsers support "use strict" except Internet Explorer 9 and lower.
+
+2. Variables - A JavaScript variable is simply a name of storage location. There are two types of variables in JavaScript : local variable and global variable.
+            There are some rules while declaring a JavaScript variable (also known as identifiers).
+            A. Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+            B. After first letter we can use digits (0 to 9), for example value1.
+            C. JavaScript variables are case sensitive, for example x and X are different variables.
+
+3. ADDITION - The addition ( + ) operator produces the sum of numeric operands or string concatenation.
+
+4. SUBTRACTION - The subtraction ( - ) operator subtracts the two operands, producing their difference.
+
+5. MULTIPICATION - The multiplication (*) operator produces the product of the operands.
+
+6. DIVISION - The division (/) operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor.
+
+7. INTEGER - Numbers can be positive or negative integers. However, integers are floating-point values in JavaScript. 
+            Integers value will be accurate up to 15 digits in JavaScript.
+            Integers with 16 digits onwards will be changed and rounded up or down; therefore, use BigInt for integers larger than 15 digits.
+            Example: var num=10 // Numeric integer value
+
+8. Float Value OR Decimal Value: A floating-point represent a decimal integer with either decimal points or fraction expressed
+                Example: var num1 = 5;              // Numeric integer value
+                         var num2 = 10.5;            // Numeric float value
+                         var num3 = -30.47;          // Negative numeric float value
+
+9. Character - char( value ) Parameters: This function accepts single parameter value which is to be converted into its single-character string representation.
+                Example: char alph='A'
+
+10. String - Strings are used for storing text/characters. For example, "Hello World" is a string of characters.
+             Unlike many other programming languages, C does not have a String type to easily create string variables.
+
+11. Booleans - booleans are the primitive data types that can either be true or false . For example, const a = true; const b = false;
+                 Note: If you wrap true or false in a quote, then they are considered as a string.             
+
+12. Assignment(=) -  Assignment operators are used to assign values to JavaScript variables.
+
+13. Equality (==) - The equality (==) operator checks whether its two operands are equal, returning a Boolean result. Unlike the strict equality operator, 
+                    it attempts to convert and compare operands that are of different types.
+                    Example:
+                    var a=1234
+                    var b=1234
+                    var c="1234"
+                    console.log(a==b);         //o/p> true
+                    console.log(a==c);        //o/p> true
+                    console.log(a===b);
+                    console.log(a===c);
+
+14. Strict equality (===) - The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator,
+                            the strict equality operator always considers operands of different types to be different.
+                            Example:                  
+                            var a=1234
+                            var b=1234
+                            var c="1234"
+                            console.log(a===b);      //o/p> true
+                            console.log(a===c);      //o/p> false
