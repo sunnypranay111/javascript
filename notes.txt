@@ -18,8 +18,10 @@ _ = hypon
 |= pipe symbol
 
 Definations
-JavaScript - JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more.
-             It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.
+JavaScript - JavaScript is a dynamic programming language that's used for web 
+             development, in web applications, for game development, and lots more.
+             It allows you to implement dynamic features on web pages that cannot be
+             done with only HTML and CSS.
 
 JavaScript(Uses) - JavaScript is commonly used for creating web pages. It allows us to add dynamic behavior to the webpage and add special effects to the webpage. On websites, it is mainly used for validation purposes.
                     JavaScript helps us to execute complex actions and also enables the interaction of websites with visitors.
@@ -127,3 +129,15 @@ JavaScript(Uses) - JavaScript is commonly used for creating web pages. It allows
 		If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
 
 		Functions often compute a return value. The return value is "returned" back to the "caller":
+
+
+16. Spread Oparatos and Rest operators- JavaScript uses three dots (...) for both the
+    rest and spread operators. But these two operators are not the same.
+
+    The main difference between rest and spread is that the rest operator puts the
+    rest of some specific user-supplied values into a JavaScript array. But the
+    spread syntax expands iterables into individual elements.
+
+17. Deep Copy and Shollow Copy:- In Shallow copy, a copy of the original object is stored and only the
+    reference address is finally copied. In Deep copy, the copy of the original object
+    and the repetitive copies both are stored.
