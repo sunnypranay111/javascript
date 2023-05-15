@@ -155,5 +155,104 @@ var currentday="Thursday"
 // }
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// var givennumber = 0;
+
+// if(givennumber > 0){
+//     console.log("given no greater than Zero::", givennumber);
+
+// }else{
+// console.log("given no less than than Zero::", givennumber);
+// }
+
+
+// currentday = 60;
+
+// if(currentday>35){
+//     console.log(" 1 Today is ", currentday);
+// }else if(currentday === "Monday"){
+//     console.log("2 Today is ", currentday) ;
+// }else if(currentday>35){
+//     console.log("3 Today is ", currentday) ;
+// }
+// // else if(currentday === "Wednesday"){
+// //     console.log("Today is ", currentday) ;
+// // }else if(currentday === "Thursday"){
+// //     console.log("Today is ", currentday) ;
+// // }else if(currentday === "Friday"){
+// //     console.log("Today is ", currentday) ;
+// // }else if(currentday === "Saturday"){
+// //     console.log("Today is ", currentday) ;
+// // }
+// else{
+//     console.log("Student Failed");
+// }
+
+
+
+// telugu = 50;
+// hindi = 81;
+// english = 90;
+// mathes = 99
+// science = 80;
+// social = 65;
+
+
+// if(telugu > 35){
+//     console.log("Telugu passed", "Telugu marks::",telugu);
+// } if(hindi > 35){
+//     console.log("Hindi passed", "Hindi marks::",hindi);
+// }if(english > 35){
+//     console.log("English passed", "English marks::",english);
+// }if(mathes  > 35){
+//     console.log("Mathes passed", "Mathes marks::",mathes);
+// }if(currentday === "Thursday"){
+//     console.log("English passed", "English marks::",sci);
+// }if(currentday === "Friday"){
+//     console.log("English passed", "English marks::",hindi);
+// }else{
+//     console.log("Student Failed");
+// }
+
+
+class1 = 50;
+class2 = 81;
+class3 = 30;
+class4 = 99
+class5 = 80;
+
+
+if(class1>35){
+    console.log("class 1 passed");
+    if(class2>35){
+        console.log("class 2 passed");
+        if(class3>35){
+            console.log("class 3 passed");
+            if(class4>35){
+                console.log("class 4 passed");
+                if(class5>35){
+                    console.log("class 5 passed");
+                }else{
+                    console.log("class 5 failed");
+                }
+            }else{
+                console.log("class 4 failed");
+            }
+        }else{
+            console.log("class 3 failed");
+        }
+    }else{
+        console.log("class 2 failed");
+    }
+}else{
+    console.log("class 1 failed");
+}
+
+
+
+
+
+
 
 
